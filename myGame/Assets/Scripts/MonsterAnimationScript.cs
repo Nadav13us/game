@@ -21,12 +21,12 @@ public class MonsterAnimationScript : AnimationScript{
 	// Update is called once per frame
 	void Update ()
     {
-        if (attacking && !anim.GetCurrentAnimatorStateInfo(1).IsName("attack"))
-        {
-            GetComponent<MonsterSoundScript>().walkSound();
-            anim.SetFloat("speed", 0.2f);
-            attacking = false;
-        }
+      //  if (attacking && !anim.GetCurrentAnimatorStateInfo(1).IsName("attack"))
+       // {
+        //    GetComponent<MonsterSoundScript>().walkSound();
+           // anim.SetFloat("speed", 0.2f);
+     //       attacking = false;
+     //   }
     }
    
 
@@ -34,10 +34,10 @@ public class MonsterAnimationScript : AnimationScript{
     {
         if(!isDead)
         {
-            attacking = true;
+           // attacking = true;
             anim.SetTrigger("attacking");
             anim.SetFloat("attacktype", Random.value);
-            anim.SetFloat("speed", 0);
+           // anim.SetFloat("speed", 0);
             GetComponent<MonsterSoundScript>().attackSound();
         }
     }
@@ -58,13 +58,22 @@ public class MonsterAnimationScript : AnimationScript{
         Destroy(gameObject);
     }
 
+    public void hit(GameObject a)
+    {
+        a.GetComponent<HealthScript>().changeHealth(-damage);
+    }
+
     void OnCollisionEnter(Collision col)
     {
-        if(attacking)
+        if(attacking && col.gameObject.tag == "Player")
         {
             Debug.Log("blaaaa");
             Debug.Log(col.gameObject);
             col.gameObject.GetComponent<HealthScript>().changeHealth(-damage);
         }
+    }
+    public void setSpeed(float num)
+    {
+        anim.SetFloat("speed",num);
     }
 }

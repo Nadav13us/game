@@ -151,6 +151,8 @@
     <Compile Include="Assets\baitkneset\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\baitkneset\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\baitkneset\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\monsterAttackBehabiour.cs" />
+    <Compile Include="Assets\monsterHitPlayer.cs" />
     <Compile Include="Assets\weapons\Sword\Scripts\SwardAnimationScript.cs" />
   </ItemGroup>
   <ItemGroup>

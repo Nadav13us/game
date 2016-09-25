@@ -6,6 +6,7 @@ public class AttackAnimationSMB : StateMachineBehaviour {
 	 // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        Debug.Log("hmm what?!");
         animator.gameObject.GetComponent<BoxCollider>().enabled = true;
         animator.gameObject.GetComponent<WeponAnimationScript>().isAttack = true;
 	}
@@ -18,6 +19,7 @@ public class AttackAnimationSMB : StateMachineBehaviour {
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        Debug.Log("mmm wherE?");
         animator.gameObject.GetComponent<BoxCollider>().enabled = false;
         animator.gameObject.GetComponent<WeponAnimationScript>().isAttack = false;
 

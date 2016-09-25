@@ -22,13 +22,13 @@ public class WeponAnimationScript : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-         Debug.Log(col.gameObject);
-        Debug.Log(isAttack);
+         //Debug.Log(col.gameObject);
+       // Debug.Log(isAttack);
         if (isAttack && col.gameObject.tag == "enemy")
         {
             col.gameObject.GetComponent<HealthScript>().changeHealth(-damage);
     //        GetComponent<WeponAudioScript>().playHitSound();
-
+            
         }
     }
 
@@ -39,6 +39,6 @@ public class WeponAnimationScript : MonoBehaviour {
         anim.SetFloat("Blend", Random.value);
         anim.SetTrigger("attacking");
        // isAttack = true;
-        Debug.Log("WORK!");//didnt work T_T
+       // Debug.Log("WORK!");//didnt work T_T
     }
 }
