@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 252aa543af2d91e4e81eccec70bb0cd0
+timeCreated: 1474673975
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Candl
+    100002: Candl1
+    100004: Candl2
+    100006: Candl3
+    100008: Candl4
+    100010: Candl5
+    100012: Candle
+    100014: Cube
+    100016: Cube1
+    100018: Cube2
+    100020: Cube3
+    100022: Cube4
+    100024: Cube5
+    100026: Cube6
+    100028: Cylinder
+    100030: HyperNURBS
+    100032: Light
+    100034: //RootNode
+    100036: Null_Objec
+    100038: TooBig0
+    100040: TooBig1
+    100042: TooBig2
+    100044: TooBig3
+    400000: Candl
+    400002: Candl1
+    400004: Candl2
+    400006: Candl3
+    400008: Candl4
+    400010: Candl5
+    400012: Candle
+    400014: Cube
+    400016: Cube1
+    400018: Cube2
+    400020: Cube3
+    400022: Cube4
+    400024: Cube5
+    400026: Cube6
+    400028: Cylinder
+    400030: HyperNURBS
+    400032: Light
+    400034: //RootNode
+    400036: Null_Objec
+    400038: TooBig0
+    400040: TooBig1
+    400042: TooBig2
+    400044: TooBig3
+    2300000: Candl
+    2300002: Candl1
+    2300004: Candl2
+    2300006: Candl3
+    2300008: Candl4
+    2300010: Candl5
+    2300012: Candle
+    2300014: Cube
+    2300016: Cube1
+    2300018: Cube2
+    2300020: Cube3
+    2300022: Cube4
+    2300024: Cube5
+    2300026: Cube6
+    2300028: Cylinder
+    2300030: HyperNURBS
+    2300032: Null_Objec
+    2300034: TooBig0
+    2300036: TooBig1
+    2300038: TooBig2
+    2300040: TooBig3
+    3300000: Candl
+    3300002: Candl1
+    3300004: Candl2
+    3300006: Candl3
+    3300008: Candl4
+    3300010: Candl5
+    3300012: Candle
+    3300014: Cube
+    3300016: Cube1
+    3300018: Cube2
+    3300020: Cube3
+    3300022: Cube4
+    3300024: Cube5
+    3300026: Cube6
+    3300028: Cylinder
+    3300030: HyperNURBS
+    3300032: Null_Objec
+    3300034: TooBig0
+    3300036: TooBig1
+    3300038: TooBig2
+    3300040: TooBig3
+    4300000: Candle
+    4300002: Cube2
+    4300004: Candl4
+    4300006: Cube1
+    4300008: Candl2
+    4300010: Cube4
+    4300012: Candl
+    4300014: Cube
+    4300016: Candl3
+    4300018: Cube3
+    4300020: Candl5
+    4300022: Cube5
+    4300024: Candl1
+    4300026: Cube6
+    4300028: Null_Objec
+    4300030: HyperNURBS
+    4300032: Cylinder
+    4300034: TooBig0
+    4300036: TooBig1
+    4300038: TooBig2
+    4300040: TooBig3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
